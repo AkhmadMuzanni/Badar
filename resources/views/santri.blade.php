@@ -285,42 +285,156 @@
               </button>
             </div>
             <div class="modal-body">
-              
-                <form class="form-horizontal" role="form">
-                  <div class="form-group row">
-                    <label  class="col-sm-2 control-label"
-                              for="inputEmail3">Email</label>
-                    <div class="col-sm-10">
-                        <input type="email" class="form-control form-control-sm" 
-                        id="inputEmail3" placeholder="Email"/>
-                    </div>
+              <form class="form-horizontal" role="form">
+                <h4>Biodata Santri</h4><hr></hr>
+                <div class="form-group row">
+                  <label  class="col-sm-3 control-label" for="insertNamaSantri">Nama Lengkap</label>
+                  <div class="col-sm-9">
+                      <input type="text" class="form-control form-control-sm" id="insertNamaSantri" placeholder="Nama Lengkap (sesuai Akta Kelahiran)"/>
                   </div>
-                  <div class="form-group row">
-                    <label class="col-sm-2 control-label"
-                          for="inputPassword3" >Password</label>
-                    <div class="col-sm-10">
-                        <input type="password" class="form-control form-control-sm"
-                            id="inputPassword3" placeholder="Password"/>
-                    </div>
+                </div>
+                <div class="form-group row">
+                  <label  class="col-sm-3 control-label" for="insertTmpLahir">Tempat, Tanggal Lahir</label>
+                  <div class="col-sm-3">
+                      <input type="text" class="form-control form-control-sm" id="insertTmpLahir" placeholder="Tempat Lahir"/>
                   </div>
-                  <div class="form-group row">
-                    <div class="col-sm-offset-2 col-sm-10">
-                      <div class="checkbox">
-                        <label>
-                            <input type="checkbox"/> Remember me
-                        </label>
-                      </div>
-                    </div>
+                  <div class="col-sm-6">
+                      <input type="date" class="form-control form-control-sm" id="insertTglLahir" placeholder="Tanggal Lahir"/>                      
                   </div>
-                  <div class="form-group row">
-                    <div class="col-sm-offset-2 col-sm-10">
-                      <button type="submit" class="btn btn-default">Sign in</button>
-                    </div>
+                </div>
+                <label>Alamat Asal</label>
+                <div class="form-group row">
+                  <label  class="col-sm-3 control-label" for="insertJalan">- Jalan</label>
+                  <div class="col-sm-9">
+                      <input type="text" class="form-control form-control-sm" id="insertJalan" placeholder="Jalan"/>
                   </div>
-                </form>
-
-
-
+                </div>
+                <div class="form-group row">
+                  <label  class="col-sm-3 control-label" for="insertRT">- RT / RW</label>
+                  <div class="col-sm-2">
+                      <input type="text" class="form-control form-control-sm" id="insertRT" placeholder="RT"/>
+                  </div>
+                  <div class="col-sm-2">
+                      <input type="text" class="form-control form-control-sm" id="insertRW" placeholder="RW"/>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label  class="col-sm-3 control-label" for="insertDusun">- Dusun</label>
+                  <div class="col-sm-3">
+                      <input type="text" class="form-control form-control-sm" id="insertDusun" placeholder="Dusun"/>
+                  </div>
+                  <label  class="col-sm-3 control-label" for="insertDesa">- Desa/Kelurahan</label>
+                  <div class="col-sm-3">
+                      <input type="text" class="form-control form-control-sm" id="insertDesa" placeholder="Desa/Kelurahan"/>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label  class="col-sm-3 control-label" for="insertKecamatan">- Kecamatan</label>
+                  <div class="col-sm-3">
+                      <input type="text" class="form-control form-control-sm" id="insertKecamatan" placeholder="Kecamatan"/>
+                  </div>
+                  <label  class="col-sm-3 control-label" for="insertKota">- Kota/Kabupaten</label>
+                  <div class="col-sm-3">
+                      <input type="text" class="form-control form-control-sm" id="insertKota" placeholder="Kota/Kabupaten"/>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label  class="col-sm-3 control-label" for="insertTelp">Nomor Telepon/HP</label>
+                  <div class="col-sm-9">
+                      <input type="number" class="form-control form-control-sm" id="insertTelp" placeholder="Nomor Telepon/HP"/>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-sm-3 control-label" for="insertAsalSekolah">Asal Sekolah</label>
+                  <div class="col-sm-9">
+                      <input type="text" class="form-control form-control-sm" id="insertAsalSekolah" placeholder="Asal Sekolah"/>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label  class="col-sm-3 control-label" for="insertJenjang">Jenjang Pendidikan</label>
+                  <div class="col-sm-9">
+                      <input type="text" class="form-control form-control-sm" id="insertJenjang" placeholder="Jenjang Pendidikan"/>
+                  </div>
+                </div>                
+                <div class="form-group row">
+                  <label class="col-sm-3 control-label" for="insertTglMasuk">Tanggal Masuk</label>
+                  <div class="col-sm-9">
+                      <input type="date" class="form-control form-control-sm" id="insertTglMasuk" placeholder="Tanggal Masuk"/>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-sm-3 control-label" for="insertFoto">Foto</label>
+                  <div class="col-sm-9">
+                      <input type="file" class="form-control form-control-sm" id="insertFoto" placeholder="Foto"/>
+                  </div>
+                </div>
+                <h4>Biodata Ayah</h4><hr></hr>
+                <div class="form-group row">
+                  <label  class="col-sm-3 control-label" for="insertNamaAyah">Nama Ayah</label>
+                  <div class="col-sm-9">
+                      <input type="text" class="form-control form-control-sm" id="insertNamaAyah" placeholder="Nama Ayah"/>
+                  </div>
+                </div>                
+                <div class="form-group row">
+                  <label  class="col-sm-3 control-label" for="insertThnLahirAyah">Tahun Lahir Ayah</label>
+                  <div class="col-sm-3">
+                      <input type="number" class="form-control form-control-sm" id="insertThnLahirAyah" placeholder="Tahun Lahir Ayah"/>
+                  </div>
+                  <label  class="col-sm-3 control-label" for="insertTelpAyah">Nomor Telepon Ayah</label>
+                  <div class="col-sm-3">
+                      <input type="number" class="form-control form-control-sm" id="insertTelpAyah" placeholder="Nomor Telepon Ayah"/>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label  class="col-sm-3 control-label" for="insertAlamatAyah">Alamat Ayah</label>
+                  <div class="col-sm-9">
+                      <input type="text" class="form-control form-control-sm" id="insertAlamatAyah" placeholder="Alamat Ayah"/>
+                  </div>
+                </div>                
+                <div class="form-group row">
+                  <label  class="col-sm-3 control-label" for="insertPekerjaanAyah">Pekerjaan Ayah</label>
+                  <div class="col-sm-3">
+                      <input type="text" class="form-control form-control-sm" id="insertPekerjaanAyah" placeholder="Pekerjaan Ayah"/>
+                  </div>
+                  <label  class="col-sm-3 control-label" for="insertPendidikanAyah">Pendidikan Ayah</label>
+                  <div class="col-sm-3">
+                      <input type="text" class="form-control form-control-sm" id="insertPendidikanAyah" placeholder="Pendidikan Ayah"/>
+                  </div>
+                </div>
+                <h4>Biodata Ibu</h4><hr></hr>
+                <div class="form-group row">
+                  <label  class="col-sm-3 control-label" for="insertNamaIbu">Nama Ibu</label>
+                  <div class="col-sm-9">
+                      <input type="text" class="form-control form-control-sm" id="insertNamaIbu" placeholder="Nama Ayah"/>
+                  </div>
+                </div>                
+                <div class="form-group row">
+                  <label  class="col-sm-3 control-label" for="insertThnLahirIbu">Tahun Lahir Ibu</label>
+                  <div class="col-sm-3">
+                      <input type="number" class="form-control form-control-sm" id="insertThnLahirIbu" placeholder="Tahun Lahir Ibu"/>
+                  </div>
+                  <label  class="col-sm-3 control-label" for="insertTelpIbu">Nomor Telepon Ibu</label>
+                  <div class="col-sm-3">
+                      <input type="number" class="form-control form-control-sm" id="insertTelpIbu" placeholder="Nomor Telepon Ibu"/>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label  class="col-sm-3 control-label" for="insertAlamatIbu">Alamat Ibu</label>
+                  <div class="col-sm-9">
+                      <input type="text" class="form-control form-control-sm" id="insertAlamatIbu" placeholder="Alamat Ibu"/>
+                  </div>
+                </div>                
+                <div class="form-group row">
+                  <label  class="col-sm-3 control-label" for="insertPekerjaanIbu">Pekerjaan Ibu</label>
+                  <div class="col-sm-3">
+                      <input type="text" class="form-control form-control-sm" id="insertPekerjaanIbu" placeholder="Pekerjaan Ibu"/>
+                  </div>
+                  <label  class="col-sm-3 control-label" for="insertPendidikanIbu">Pendidikan Ibu</label>
+                  <div class="col-sm-3">
+                      <input type="text" class="form-control form-control-sm" id="insertPendidikanIbu" placeholder="Pendidikan Ibu"/>
+                  </div>
+                </div>
+              </form>
             </div>
             <div class="modal-footer">
               <!-- <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button> -->
