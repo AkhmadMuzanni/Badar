@@ -26,6 +26,10 @@
     div.container {
         width: 80%;
     }
+    table.dataTable tbody tr.selected {
+    color: white;
+    background-color: #28a745;
+    }
   </style>
 </head>
 
