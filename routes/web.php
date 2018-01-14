@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('admin');
 });
+
+Route::get('/santri','C_Pondok@selectSantri');
+Route::get('/ustadz','C_Pondok@selectUstadz');
